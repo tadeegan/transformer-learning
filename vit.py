@@ -83,7 +83,7 @@ class PositionalEmbedding2d(torch.nn.Module):
                     embeddings[0][index][i+1] = math.cos(norm_x * wavelength)
                     embeddings[0][index][i+2] = math.sin(norm_y * wavelength)
                     embeddings[0][index][i+3] = math.cos(norm_y * wavelength)
-        self.embeddings = embeddings
+        self.embeddings = nn.Parameter(embeddings)
         self.embedding_length = self.embeddings.size()[-1]
 
     
@@ -97,7 +97,7 @@ class PositionalEmbedding2d(torch.nn.Module):
 class ViT(torch.nn.Module):
 
     def __init__(self, input_channels, class_channels, grid_shape) -> None:
-        super(ViT, self).__init__()
+        super().__init__()
         self.positional_embedding = PositionalEmbedding2d(num_x=grid_shape[0], num_y=grid_shape[1])
 
         input_c = self.positional_embedding.embedding_length + input_channels
