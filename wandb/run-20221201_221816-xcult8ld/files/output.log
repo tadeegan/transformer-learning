@@ -1,0 +1,95 @@
+ViT(
+  (positional_embedding): PositionalEmbedding2d()
+  (encoder_blocks): Sequential(
+    (0): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (1): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (2): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (3): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+  )
+  (final_mlp): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=28, out_features=10, bias=True)
+    )
+  )
+)
+patches_train.shape: (60000, 49, 16)
+
+
+
+
+
+ 65%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                             | 389/600 [00:12<00:06, 32.08it/s]
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 130, in <module>
+    y_pred = model(x)
+  File "/Users/tdeegan/dev/transformers/vit.py", line 119, in __call__
+    x = self.encoder_blocks(x)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/Users/tdeegan/dev/transformers/vit.py", line 46, in __call__
+    x = self.MLP(self.norm2(x)) + x
+  File "/Users/tdeegan/dev/transformers/vit.py", line 30, in __call__
+    x = self.activation_fn(l(x))
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

@@ -1,0 +1,2 @@
+#params: 101770
+train_set.shape: (60000, 1, 28, 28)

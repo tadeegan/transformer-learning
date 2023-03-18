@@ -1,0 +1,16 @@
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/vit.py(100)__init__()
+     98
+     99     def __init__(self, input_channels, class_channels, grid_shape) -> None:
+--> 100         super(ViT, self).__init__()
+    101         self.positional_embedding = PositionalEmbedding2d(num_x=grid_shape[0], num_y=grid_shape[1])
+    102
+PYDEV DEBUGGER WARNING:
+sys.settrace() should not be used when the debugger is being used.
+This may cause the debugger to stop working correctly.
+If this is needed, please check:
+http://pydev.blogspot.com/2007/06/why-cant-pydev-debugger-work-with.html
+to see how to restore the debug tracing back correctly.
+Call Location:
+  File "/usr/lib/python3.8/bdb.py", line 345, in set_continue
+    sys.settrace(None)
+Automatic pdb calling has been turned OFF

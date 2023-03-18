@@ -1,0 +1,1209 @@
+patches_train.shape: (60000, 49, 16)
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+
+ 46%|████▌     | 277/600 [00:03<00:04, 78.50it/s]
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+
+ 72%|███████▏  | 432/600 [00:05<00:02, 79.27it/s]
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+
+100%|█████████▉| 598/600 [00:07<00:00, 81.51it/s]
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+self.learned_class_embedding.device: cuda:0
+cuda:0
+loss: [600]: 221.59750366210938
+self.learned_class_embedding.device: cuda:0
+
+100%|██████████| 600/600 [00:07<00:00, 79.40it/s]

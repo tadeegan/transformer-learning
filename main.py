@@ -1,7 +1,6 @@
 #! /bin/python
 import torch
 # import numpy as np
-from torch import nn
 import math
 import mnist
 import torch.nn.functional as F
@@ -16,6 +15,20 @@ import wandb
 
 # mnist.init()
 
+class MLP(torch.nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.layers = torch.nn.ModuleList([
+            torch.nn.Linear(28*28, 500),
+            torch.nn.Linear(500, 10),
+        ])
+
+    def forward(self, x):
+        x = x.flatten(start_dim=1)
+        for l in self.layers:
+            x =  F.relu(l(x))
+        output = F.log_softmax(x, dim=1)
+        return output
 
 def train(type='VIT'):
 
@@ -25,18 +38,21 @@ def train(type='VIT'):
     wandb.init(project="vit-transformer")
 
     if type == 'VIT':
-        model = ViT(input_channels=4*4, class_channels=10, grid_shape=(7,7))
+        model = ViT(input_channels=4*4, encoder_d=128, class_channels=10, grid_shape=(7,7))
     elif type == 'CONV':
         model = ConvNet()
+    elif type == 'MLP':
+        model = MLP()
 
     num_params = sum(param.numel() for param in model.parameters())
     print(f'#params: {num_params}')
+    wandb.log({'model/parameters': num_params})
 
     loss_fn = torch.nn.CrossEntropyLoss(reduction='sum')
 
     learning_rate = 1e-3
 
-    batch_size = 100
+    batch_size = 64
     epochs = 50
     step = 0
 
@@ -78,7 +94,7 @@ def train(type='VIT'):
         print(f'loss: [{step}]: {loss.item()}')
         wandb.log({'loss': loss.item()})
 
-        model.cpu()
+        # model.cpu()
         model.eval()
 
         num_test_steps = 1000
@@ -88,7 +104,7 @@ def train(type='VIT'):
         for i in range(num_test_steps):
             x = torch.from_numpy(train_set[i:i+1]).type(torch.FloatTensor) / 255.0 - 0.5
             # x = x.unsqueeze(dim=-1)
-            y = model(x)
+            y = model(x.cuda()).to('cpu')
             output = np.argmax(y.detach().numpy(), axis=-1)
             # print(f'{t_train[i]} -> {output}')
             

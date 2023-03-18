@@ -1,0 +1,55 @@
+2023-01-16 09:48:33,106 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Configure stats pid to 7115
+2023-01-16 09:48:33,107 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-01-16 09:48:33,108 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Loading settings from /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/settings
+2023-01-16 09:48:33,108 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-16 09:48:33,108 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-16 09:48:33,109 INFO    MainThread:7115 [wandb_init.py:_log_setup():478] Logging user logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_094833-8vv0iou0/logs/debug.log
+2023-01-16 09:48:33,109 INFO    MainThread:7115 [wandb_init.py:_log_setup():479] Logging internal logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_094833-8vv0iou0/logs/debug-internal.log
+2023-01-16 09:48:33,110 INFO    MainThread:7115 [wandb_init.py:init():518] calling init triggers
+2023-01-16 09:48:33,110 INFO    MainThread:7115 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-16 09:48:33,110 INFO    MainThread:7115 [wandb_init.py:init():537] re-initializing run, found existing run on stack: apwk2bzc
+2023-01-16 09:48:33,116 INFO    MainThread:7115 [wandb_run.py:_finish():1844] finishing run tadeegan/vit-transformer/apwk2bzc
+2023-01-16 09:48:33,164 INFO    MainThread:7115 [jupyter.py:save_history():449] not saving jupyter history
+2023-01-16 09:48:33,164 INFO    MainThread:7115 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-01-16 09:48:33,164 INFO    MainThread:7115 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-01-16 09:48:33,164 INFO    MainThread:7115 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-01-16 09:48:33,165 INFO    MainThread:7115 [wandb_run.py:_restore():2053] restore
+2023-01-16 09:48:33,166 INFO    MainThread:7115 [wandb_run.py:_restore():2059] restore done
+2023-01-16 09:48:36,649 INFO    MainThread:7115 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-01-16 09:48:36,649 INFO    MainThread:7115 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-01-16 09:48:36,656 INFO    MainThread:7115 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-01-16 09:48:36,670 INFO    MainThread:7115 [wandb_init.py:init():571] starting backend
+2023-01-16 09:48:36,672 INFO    MainThread:7115 [wandb_init.py:init():575] setting up manager
+2023-01-16 09:48:36,679 INFO    MainThread:7115 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-16 09:48:36,684 INFO    MainThread:7115 [wandb_init.py:init():582] backend started and connected
+2023-01-16 09:48:36,691 INFO    MainThread:7115 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-01-16 09:48:37,029 INFO    MainThread:7115 [wandb_init.py:init():670] updated telemetry
+2023-01-16 09:48:37,092 INFO    MainThread:7115 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-01-16 09:48:37,827 INFO    MainThread:7115 [wandb_run.py:_on_init():2121] communicating current version
+2023-01-16 09:48:37,858 INFO    MainThread:7115 [wandb_run.py:_on_init():2125] got version response 
+2023-01-16 09:48:37,859 INFO    MainThread:7115 [wandb_init.py:init():758] starting run threads in backend
+2023-01-16 09:48:38,008 INFO    MainThread:7115 [wandb_run.py:_console_start():2101] atexit reg
+2023-01-16 09:48:38,009 INFO    MainThread:7115 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-01-16 09:48:38,009 INFO    MainThread:7115 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-01-16 09:48:38,009 INFO    MainThread:7115 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-01-16 09:48:38,010 INFO    MainThread:7115 [wandb_init.py:init():798] run started, returning control to user process
+2023-01-16 09:50:02,760 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Configure stats pid to 7115
+2023-01-16 09:50:02,761 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-01-16 09:50:02,761 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Loading settings from /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/settings
+2023-01-16 09:50:02,761 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-16 09:50:02,762 INFO    MainThread:7115 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-16 09:50:02,762 INFO    MainThread:7115 [wandb_init.py:_log_setup():478] Logging user logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095002-68k5u6ak/logs/debug.log
+2023-01-16 09:50:02,763 INFO    MainThread:7115 [wandb_init.py:_log_setup():479] Logging internal logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095002-68k5u6ak/logs/debug-internal.log
+2023-01-16 09:50:02,763 INFO    MainThread:7115 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f75c8469310>
+2023-01-16 09:50:02,764 INFO    MainThread:7115 [wandb_init.py:init():518] calling init triggers
+2023-01-16 09:50:02,764 INFO    MainThread:7115 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-16 09:50:02,765 INFO    MainThread:7115 [wandb_init.py:init():537] re-initializing run, found existing run on stack: 8vv0iou0
+2023-01-16 09:50:02,768 INFO    MainThread:7115 [wandb_run.py:_finish():1844] finishing run tadeegan/vit-transformer/8vv0iou0
+2023-01-16 09:50:02,769 INFO    MainThread:7115 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-01-16 09:50:02,771 INFO    MainThread:7115 [wandb_run.py:_restore():2053] restore
+2023-01-16 09:50:02,771 INFO    MainThread:7115 [wandb_run.py:_restore():2059] restore done
+2023-01-16 09:50:08,498 INFO    MainThread:7115 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-01-16 09:50:08,499 INFO    MainThread:7115 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-01-16 09:50:08,507 INFO    MainThread:7115 [wandb_run.py:_footer_sync_info():3383] logging synced files

@@ -1,0 +1,8 @@
+#params: 1199882
+train_set.shape: (60000, 1, 28, 28)
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/main.py(65)train()
+-> x = torch.from_numpy(x).type(torch.FloatTensor) / 255.0 - 0.5
+  0%|          | 0/600 [00:00<?, ?it/s]
+--KeyboardInterrupt--
+
+  0%|          | 0/600 [00:09<?, ?it/s]

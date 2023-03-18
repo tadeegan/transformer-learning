@@ -1,0 +1,214 @@
+ViT(
+  (positional_embedding): PositionalEmbedding2d()
+  (encoder_blocks): Sequential(
+    (0): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (1): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (2): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (3): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+  )
+  (final_mlp): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=28, out_features=10, bias=True)
+    )
+  )
+)
+patches_train.shape: (60000, 49, 16)
+
+
+
+
+
+
+
+
+ 96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎      | 577/600 [00:17<00:00, 28.00it/s]
+loss: [600]: 222.35816955566406
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:18<00:00, 32.82it/s]
+
+
+
+
+
+
+
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎           | 560/600 [00:15<00:01, 37.06it/s]
+loss: [1200]: 217.64260864257812
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:16<00:00, 36.39it/s]
+
+
+
+
+
+
+
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌          | 564/600 [00:16<00:01, 33.63it/s]
+loss: [1800]: 212.56173706054688
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 33.64it/s]
+
+
+
+
+
+
+
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋         | 568/600 [00:16<00:00, 36.91it/s]
+loss: [2400]: 205.9182891845703
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 34.81it/s]
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                 | 540/600 [00:14<00:01, 35.94it/s]
+loss: [3000]: 197.58912658691406
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:16<00:00, 36.09it/s]
+
+
+
+
+
+
+
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊            | 558/600 [00:16<00:01, 33.11it/s]
+loss: [3600]: 193.82525634765625
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 34.31it/s]
+
+
+
+
+
+
+
+
+ 99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 592/600 [00:16<00:00, 35.17it/s]
+loss: [4200]: 190.20822143554688
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 35.21it/s]
+
+
+
+
+
+
+
+
+ 97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍     | 581/600 [00:17<00:00, 32.59it/s]
+loss: [4800]: 178.5914306640625
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 33.71it/s]
+
+
+
+
+
+
+
+ 91%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                | 544/600 [00:15<00:01, 35.45it/s]
+loss: [5400]: 172.77664184570312
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:16<00:00, 35.43it/s]
+
+
+
+
+
+
+
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                   | 535/600 [00:16<00:02, 28.31it/s]
+loss: [6000]: 175.14437866210938
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:18<00:00, 32.98it/s]
+  0%|                                                                                                                                                                                         | 0/600 [00:00<?, ?it/s]
+Valition (on test):
+
+ 24%|█████████████████████████████████████████▍                                                                                                                                     | 142/600 [00:04<00:12, 35.39it/s]
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 122, in <module>
+    y_pred = model(x)
+  File "/Users/tdeegan/dev/transformers/vit.py", line 119, in __call__
+    x = self.encoder_blocks(x)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/Users/tdeegan/dev/transformers/vit.py", line 46, in __call__
+    x = self.MLP(self.norm2(x)) + x
+  File "/Users/tdeegan/dev/transformers/vit.py", line 30, in __call__
+    x = self.activation_fn(l(x))
+KeyboardInterrupt

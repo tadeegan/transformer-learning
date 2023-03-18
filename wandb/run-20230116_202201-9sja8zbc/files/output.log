@@ -1,0 +1,28 @@
+#params: 1199882
+train_set.shape: (60000, 1, 28, 28)
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/main.py(65)train()
+-> x = torch.from_numpy(x).type(torch.FloatTensor) / 255.0 - 0.5
+  0%|          | 0/600 [00:00<?, ?it/s]
+(100, 1, 28, 28)
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/main.py(63)train()
+
+  0%|          | 1/600 [00:09<1:31:15,  9.14s/it]
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/main.py(65)train()
+
+  0%|          | 2/600 [00:10<48:09,  4.83s/it]
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/main.py(63)train()
+
+  0%|          | 3/600 [00:13<36:07,  3.63s/it]
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/main.py(65)train()
+
+  1%|          | 4/600 [00:14<28:59,  2.92s/it]
+PYDEV DEBUGGER WARNING:
+sys.settrace() should not be used when the debugger is being used.
+This may cause the debugger to stop working correctly.
+If this is needed, please check:
+http://pydev.blogspot.com/2007/06/why-cant-pydev-debugger-work-with.html
+to see how to restore the debug tracing back correctly.
+Call Location:
+  File "/usr/lib/python3.8/bdb.py", line 359, in set_quit
+    sys.settrace(None)
+  1%|          | 4/600 [00:17<42:34,  4.29s/it]

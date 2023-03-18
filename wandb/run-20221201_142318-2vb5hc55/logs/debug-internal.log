@@ -1,0 +1,46 @@
+2022-12-01 14:23:18,661 INFO    StreamThr :3013 [internal.py:wandb_internal():88] W&B internal server running at pid: 3013, started at: 2022-12-01 14:23:18.660691
+2022-12-01 14:23:18,663 DEBUG   HandlerThread:3013 [handler.py:handle_request():139] handle_request: status
+2022-12-01 14:23:18,664 DEBUG   SenderThread:3013 [sender.py:send_request():317] send_request: status
+2022-12-01 14:23:18,665 DEBUG   SenderThread:3013 [sender.py:send():303] send: header
+2022-12-01 14:23:18,665 DEBUG   SenderThread:3013 [sender.py:send():303] send: run
+2022-12-01 14:23:18,667 INFO    WriterThread:3013 [datastore.py:open_for_write():75] open: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/run-2vb5hc55.wandb
+2022-12-01 14:23:18,895 DEBUG   HandlerThread:3013 [handler.py:handle_request():139] handle_request: check_version
+2022-12-01 14:23:18,902 INFO    SenderThread:3013 [dir_watcher.py:__init__():216] watching files in: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files
+2022-12-01 14:23:18,903 INFO    SenderThread:3013 [sender.py:_start_run_threads():928] run started: 2vb5hc55 with start time 1669926198.651406
+2022-12-01 14:23:18,903 DEBUG   SenderThread:3013 [sender.py:send():303] send: summary
+2022-12-01 14:23:18,903 INFO    SenderThread:3013 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:23:18,903 DEBUG   SenderThread:3013 [sender.py:send_request():317] send_request: check_version
+2022-12-01 14:23:19,012 DEBUG   HandlerThread:3013 [handler.py:handle_request():139] handle_request: run_start
+2022-12-01 14:23:19,035 DEBUG   HandlerThread:3013 [system_info.py:__init__():31] System info init
+2022-12-01 14:23:19,035 DEBUG   HandlerThread:3013 [system_info.py:__init__():46] System info init done
+2022-12-01 14:23:19,035 INFO    HandlerThread:3013 [system_monitor.py:start():150] Starting system monitor
+2022-12-01 14:23:19,036 INFO    SystemMonitor:3013 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-01 14:23:19,036 INFO    HandlerThread:3013 [system_monitor.py:probe():168] Collecting system info
+2022-12-01 14:23:19,036 INFO    SystemMonitor:3013 [interfaces.py:start():168] Started cpu
+2022-12-01 14:23:19,037 INFO    SystemMonitor:3013 [interfaces.py:start():168] Started disk
+2022-12-01 14:23:19,037 DEBUG   HandlerThread:3013 [system_info.py:probe():195] Probing system
+2022-12-01 14:23:19,037 INFO    SystemMonitor:3013 [interfaces.py:start():168] Started gpuapple
+2022-12-01 14:23:19,043 INFO    SystemMonitor:3013 [interfaces.py:start():168] Started memory
+2022-12-01 14:23:19,044 INFO    SystemMonitor:3013 [interfaces.py:start():168] Started network
+2022-12-01 14:23:19,052 DEBUG   HandlerThread:3013 [system_info.py:_probe_git():180] Probing git
+2022-12-01 14:23:19,064 DEBUG   HandlerThread:3013 [system_info.py:_probe_git():188] Probing git done
+2022-12-01 14:23:19,065 DEBUG   HandlerThread:3013 [system_info.py:probe():241] Probing system done
+2022-12-01 14:23:19,065 DEBUG   HandlerThread:3013 [system_monitor.py:probe():177] {'os': 'macOS-12.6.1-arm64-arm-64bit', 'python': '3.10.8', 'heartbeatAt': '2022-12-01T20:23:19.040480', 'startedAt': '2022-12-01T20:23:18.640037', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/tdeegan/dev/transformers/main.py', 'codePath': 'transformers/main.py', 'git': {'remote': None, 'commit': None}, 'email': 'tadeegan@gmail.com', 'root': '/Users/tdeegan/dev', 'host': 'tdeegan-macbookpro3.roam.internal', 'username': 'tdeegan', 'executable': '/opt/homebrew/opt/python@3.10/bin/python3.10', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 460.4317207336426, 'used': 14.354530334472656}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2022-12-01 14:23:19,065 INFO    HandlerThread:3013 [system_monitor.py:probe():178] Finished collecting system info
+2022-12-01 14:23:19,065 INFO    HandlerThread:3013 [system_monitor.py:probe():181] Publishing system info
+2022-12-01 14:23:19,065 DEBUG   HandlerThread:3013 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-01 14:23:19,065 DEBUG   HandlerThread:3013 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-01 14:23:19,066 INFO    HandlerThread:3013 [system_monitor.py:probe():183] Finished publishing system info
+2022-12-01 14:23:19,068 DEBUG   SenderThread:3013 [sender.py:send():303] send: files
+2022-12-01 14:23:19,068 INFO    SenderThread:3013 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-01 14:23:19,072 DEBUG   HandlerThread:3013 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-01 14:23:19,072 DEBUG   SenderThread:3013 [sender.py:send_request():317] send_request: stop_status
+2022-12-01 14:23:19,192 DEBUG   SenderThread:3013 [sender.py:send():303] send: telemetry
+2022-12-01 14:23:19,504 INFO    Thread-16 :3013 [upload_job.py:push():143] Uploaded file /var/folders/g7/_gfjw3hx4fnbfgcxm8ppr79c00_0mn/T/tmp_7exx41dwandb/1n1kk86a-wandb-metadata.json
+2022-12-01 14:23:19,914 INFO    Thread-13 :3013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files/wandb-metadata.json
+2022-12-01 14:23:19,914 INFO    Thread-13 :3013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files/requirements.txt
+2022-12-01 14:23:19,914 INFO    Thread-13 :3013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files/output.log
+2022-12-01 14:23:19,914 INFO    Thread-13 :3013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files/wandb-summary.json
+2022-12-01 14:23:21,915 INFO    Thread-13 :3013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files/output.log
+2022-12-01 14:23:23,923 INFO    Thread-13 :3013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_142318-2vb5hc55/files/output.log
+2022-12-01 14:23:24,029 INFO    MainThread:3013 [internal.py:handle_exit():78] Internal process exited

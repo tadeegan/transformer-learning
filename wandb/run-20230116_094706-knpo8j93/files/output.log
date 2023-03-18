@@ -1,0 +1,26 @@
+patches_train.shape: (60000, 49, 16)
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/vit.py(95)__call__()
+-> return x
+  0%|          | 0/600 [00:00<?, ?it/s]
+PYDEV DEBUGGER WARNING:
+sys.settrace() should not be used when the debugger is being used.
+This may cause the debugger to stop working correctly.
+If this is needed, please check:
+http://pydev.blogspot.com/2007/06/why-cant-pydev-debugger-work-with.html
+to see how to restore the debug tracing back correctly.
+Call Location:
+  File "/usr/lib/python3.8/bdb.py", line 334, in set_trace
+    sys.settrace(self.trace_dispatch)
+PYDEV DEBUGGER WARNING:
+sys.settrace() should not be used when the debugger is being used.
+This may cause the debugger to stop working correctly.
+If this is needed, please check:
+http://pydev.blogspot.com/2007/06/why-cant-pydev-debugger-work-with.html
+to see how to restore the debug tracing back correctly.
+Call Location:
+  File "/usr/lib/python3.8/bdb.py", line 345, in set_continue
+    sys.settrace(None)
+  0%|          | 0/600 [00:19<?, ?it/s]
+Automatic pdb calling has been turned OFF
+The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload

@@ -1,0 +1,195 @@
+ViT(
+  (positional_embedding): PositionalEmbedding2d()
+  (encoder_blocks): Sequential(
+    (0): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (1): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (2): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (3): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+  )
+  (final_mlp): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=28, out_features=10, bias=True)
+    )
+  )
+)
+patches_train.shape: (60000, 49, 16)
+
+
+
+
+
+
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 554/600 [00:15<00:01, 36.22it/s]
+loss: [600]: 218.6275634765625
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:16<00:00, 35.65it/s]
+
+
+
+
+
+
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                  | 536/600 [00:14<00:01, 36.77it/s]
+loss: [1200]: 208.93478393554688
+Valition (on train):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:16<00:00, 36.46it/s]
+  1%|█▏                                                                                                                                                                               | 4/600 [00:00<00:17, 34.63it/s]
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                 | 541/600 [00:16<00:01, 34.11it/s]
+loss: [1800]: 196.660888671875
+Valition (on train):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 33.54it/s]
+  1%|█▏                                                                                                                                                                               | 4/600 [00:00<00:17, 34.44it/s]
+
+
+
+
+
+
+
+
+
+ 90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                  | 537/600 [00:17<00:01, 36.54it/s]
+loss: [2400]: 192.33102416992188
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:19<00:00, 30.62it/s]
+
+
+
+
+
+
+
+
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████            | 559/600 [00:16<00:01, 32.30it/s]
+loss: [3000]: 187.58843994140625
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 34.62it/s]
+
+
+
+
+
+
+
+
+ 96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 579/600 [00:16<00:00, 34.82it/s]
+loss: [3600]: 180.70077514648438
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 34.22it/s]
+
+
+
+
+
+
+
+
+ 94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍         | 567/600 [00:16<00:00, 36.38it/s]
+loss: [4200]: 176.6421356201172
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:17<00:00, 33.79it/s]
+
+
+
+
+
+
+
+
+ 96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 576/600 [00:17<00:00, 25.07it/s]
+loss: [4800]: 172.33436584472656
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:18<00:00, 33.19it/s]
+
+
+ 30%|███████████████████████████████████████████████████▉                                                                                                                           | 178/600 [00:05<00:13, 30.23it/s]
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 130, in <module>
+    y_pred = model(x)
+  File "/Users/tdeegan/dev/transformers/vit.py", line 119, in __call__
+    x = self.encoder_blocks(x)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/Users/tdeegan/dev/transformers/vit.py", line 46, in __call__
+    x = self.MLP(self.norm2(x)) + x
+  File "/Users/tdeegan/dev/transformers/vit.py", line 30, in __call__
+    x = self.activation_fn(l(x))
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

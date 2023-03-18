@@ -1,0 +1,5 @@
+#params: 20842
+train_set.shape: (60000, 49, 16)
+mha input: torch.Size([64, 50, 28])
+mha output: torch.Size([3, 400, 28])
+  0%|          | 0/937 [00:00<?, ?it/s]

@@ -1,0 +1,179 @@
+2022-12-01 14:00:42,125 INFO    StreamThr :753 [internal.py:wandb_internal():88] W&B internal server running at pid: 753, started at: 2022-12-01 14:00:42.112775
+2022-12-01 14:00:42,127 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: status
+2022-12-01 14:00:42,128 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: status
+2022-12-01 14:00:42,129 INFO    WriterThread:753 [datastore.py:open_for_write():75] open: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/run-2f4m00gl.wandb
+2022-12-01 14:00:42,129 DEBUG   SenderThread:753 [sender.py:send():303] send: header
+2022-12-01 14:00:42,129 DEBUG   SenderThread:753 [sender.py:send():303] send: run
+2022-12-01 14:00:42,368 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: check_version
+2022-12-01 14:00:42,377 INFO    SenderThread:753 [dir_watcher.py:__init__():216] watching files in: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files
+2022-12-01 14:00:42,377 INFO    SenderThread:753 [sender.py:_start_run_threads():928] run started: 2f4m00gl with start time 1669924842.101117
+2022-12-01 14:00:42,377 DEBUG   SenderThread:753 [sender.py:send():303] send: summary
+2022-12-01 14:00:42,377 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:42,377 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: check_version
+2022-12-01 14:00:42,495 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: run_start
+2022-12-01 14:00:42,521 DEBUG   HandlerThread:753 [system_info.py:__init__():31] System info init
+2022-12-01 14:00:42,521 DEBUG   HandlerThread:753 [system_info.py:__init__():46] System info init done
+2022-12-01 14:00:42,522 INFO    HandlerThread:753 [system_monitor.py:start():150] Starting system monitor
+2022-12-01 14:00:42,522 INFO    SystemMonitor:753 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-01 14:00:42,522 INFO    HandlerThread:753 [system_monitor.py:probe():168] Collecting system info
+2022-12-01 14:00:42,524 INFO    SystemMonitor:753 [interfaces.py:start():168] Started cpu
+2022-12-01 14:00:42,524 DEBUG   HandlerThread:753 [system_info.py:probe():195] Probing system
+2022-12-01 14:00:42,524 INFO    SystemMonitor:753 [interfaces.py:start():168] Started disk
+2022-12-01 14:00:42,527 INFO    SystemMonitor:753 [interfaces.py:start():168] Started gpuapple
+2022-12-01 14:00:42,529 INFO    SystemMonitor:753 [interfaces.py:start():168] Started memory
+2022-12-01 14:00:42,530 INFO    SystemMonitor:753 [interfaces.py:start():168] Started network
+2022-12-01 14:00:42,535 DEBUG   HandlerThread:753 [system_info.py:_probe_git():180] Probing git
+2022-12-01 14:00:42,560 DEBUG   HandlerThread:753 [system_info.py:_probe_git():188] Probing git done
+2022-12-01 14:00:42,561 DEBUG   HandlerThread:753 [system_info.py:probe():241] Probing system done
+2022-12-01 14:00:42,561 DEBUG   HandlerThread:753 [system_monitor.py:probe():177] {'os': 'macOS-12.6.1-arm64-arm-64bit', 'python': '3.10.8', 'heartbeatAt': '2022-12-01T20:00:42.524799', 'startedAt': '2022-12-01T20:00:42.089020', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/tdeegan/dev/transformers/main.py', 'codePath': 'transformers/main.py', 'git': {'remote': None, 'commit': None}, 'email': 'tadeegan@gmail.com', 'root': '/Users/tdeegan/dev', 'host': 'tdeegan-macbookpro3.roam.internal', 'username': 'tdeegan', 'executable': '/opt/homebrew/opt/python@3.10/bin/python3.10', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 460.4317207336426, 'used': 14.354530334472656}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2022-12-01 14:00:42,561 INFO    HandlerThread:753 [system_monitor.py:probe():178] Finished collecting system info
+2022-12-01 14:00:42,561 INFO    HandlerThread:753 [system_monitor.py:probe():181] Publishing system info
+2022-12-01 14:00:42,561 DEBUG   HandlerThread:753 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-01 14:00:42,562 DEBUG   HandlerThread:753 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-01 14:00:42,562 INFO    HandlerThread:753 [system_monitor.py:probe():183] Finished publishing system info
+2022-12-01 14:00:42,565 DEBUG   SenderThread:753 [sender.py:send():303] send: files
+2022-12-01 14:00:42,565 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-01 14:00:42,570 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-01 14:00:42,570 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: stop_status
+2022-12-01 14:00:42,761 DEBUG   SenderThread:753 [sender.py:send():303] send: telemetry
+2022-12-01 14:00:42,997 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-01 14:00:42,997 DEBUG   SenderThread:753 [sender.py:send():303] send: history
+2022-12-01 14:00:42,998 DEBUG   SenderThread:753 [sender.py:send():303] send: summary
+2022-12-01 14:00:42,998 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:43,088 INFO    Thread-16 :753 [upload_job.py:push():143] Uploaded file /var/folders/g7/_gfjw3hx4fnbfgcxm8ppr79c00_0mn/T/tmpwe98cw09wandb/1x1pv73l-wandb-metadata.json
+2022-12-01 14:00:43,250 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-01 14:00:43,251 DEBUG   SenderThread:753 [sender.py:send():303] send: history
+2022-12-01 14:00:43,251 DEBUG   SenderThread:753 [sender.py:send():303] send: summary
+2022-12-01 14:00:43,252 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:43,293 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-01 14:00:43,299 DEBUG   SenderThread:753 [sender.py:send():303] send: history
+2022-12-01 14:00:43,305 DEBUG   SenderThread:753 [sender.py:send():303] send: summary
+2022-12-01 14:00:43,343 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:43,483 INFO    Thread-13 :753 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/requirements.txt
+2022-12-01 14:00:43,490 INFO    Thread-13 :753 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/output.log
+2022-12-01 14:00:43,511 INFO    Thread-13 :753 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-metadata.json
+2022-12-01 14:00:43,520 INFO    Thread-13 :753 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-summary.json
+2022-12-01 14:00:44,124 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-01 14:00:44,206 DEBUG   SenderThread:753 [sender.py:send():303] send: history
+2022-12-01 14:00:44,214 DEBUG   SenderThread:753 [sender.py:send():303] send: summary
+2022-12-01 14:00:44,244 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:44,263 DEBUG   SenderThread:753 [sender.py:send():303] send: exit
+2022-12-01 14:00:44,263 INFO    SenderThread:753 [sender.py:send_exit():442] handling exit code: 0
+2022-12-01 14:00:44,263 INFO    SenderThread:753 [sender.py:send_exit():444] handling runtime: 1
+2022-12-01 14:00:44,344 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:44,344 INFO    SenderThread:753 [sender.py:send_exit():450] send defer
+2022-12-01 14:00:44,350 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,350 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-01 14:00:44,363 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,363 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-01 14:00:44,363 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 1
+2022-12-01 14:00:44,458 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,464 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-01 14:00:44,464 INFO    HandlerThread:753 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-01 14:00:44,480 INFO    Thread-13 :753 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-summary.json
+2022-12-01 14:00:44,502 DEBUG   SystemMonitor:753 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-01 14:00:44,502 DEBUG   SystemMonitor:753 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-01 14:00:44,502 DEBUG   SystemMonitor:753 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-01 14:00:44,502 INFO    HandlerThread:753 [interfaces.py:finish():173] Joined cpu
+2022-12-01 14:00:44,502 INFO    HandlerThread:753 [interfaces.py:finish():173] Joined disk
+2022-12-01 14:00:44,502 INFO    HandlerThread:753 [interfaces.py:finish():173] Joined gpuapple
+2022-12-01 14:00:44,502 INFO    HandlerThread:753 [interfaces.py:finish():173] Joined memory
+2022-12-01 14:00:44,502 INFO    HandlerThread:753 [interfaces.py:finish():173] Joined network
+2022-12-01 14:00:44,503 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,503 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-01 14:00:44,503 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 2
+2022-12-01 14:00:44,503 DEBUG   SenderThread:753 [sender.py:send():303] send: telemetry
+2022-12-01 14:00:44,503 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,503 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-01 14:00:44,503 DEBUG   SenderThread:753 [sender.py:send():303] send: stats
+2022-12-01 14:00:44,503 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,503 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-01 14:00:44,503 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 3
+2022-12-01 14:00:44,503 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,503 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-01 14:00:44,504 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,504 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-01 14:00:44,504 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 4
+2022-12-01 14:00:44,504 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,504 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-01 14:00:44,504 DEBUG   SenderThread:753 [sender.py:send():303] send: summary
+2022-12-01 14:00:44,504 INFO    SenderThread:753 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-01 14:00:44,504 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,504 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-01 14:00:44,504 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 5
+2022-12-01 14:00:44,504 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,504 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-01 14:00:44,505 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,505 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-01 14:00:44,622 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 6
+2022-12-01 14:00:44,622 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:44,622 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-01 14:00:44,622 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:44,622 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-01 14:00:44,704 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-01 14:00:45,532 INFO    Thread-13 :753 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/output.log
+2022-12-01 14:00:45,532 INFO    Thread-13 :753 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/config.yaml
+2022-12-01 14:00:45,532 INFO    Thread-13 :753 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-summary.json
+2022-12-01 14:00:46,897 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 7
+2022-12-01 14:00:46,898 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: poll_exit
+2022-12-01 14:00:46,898 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:46,899 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-01 14:00:46,899 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:46,899 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-01 14:00:46,899 INFO    SenderThread:753 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-01 14:00:47,554 INFO    SenderThread:753 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/output.log
+2022-12-01 14:00:47,555 INFO    SenderThread:753 [dir_watcher.py:finish():392] scan: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files
+2022-12-01 14:00:47,555 INFO    SenderThread:753 [dir_watcher.py:finish():406] scan save: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/requirements.txt requirements.txt
+2022-12-01 14:00:47,555 INFO    SenderThread:753 [dir_watcher.py:finish():406] scan save: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/output.log output.log
+2022-12-01 14:00:47,557 INFO    SenderThread:753 [dir_watcher.py:finish():406] scan save: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/config.yaml config.yaml
+2022-12-01 14:00:47,557 INFO    SenderThread:753 [dir_watcher.py:finish():406] scan save: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-summary.json wandb-summary.json
+2022-12-01 14:00:47,560 INFO    SenderThread:753 [dir_watcher.py:finish():406] scan save: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-metadata.json wandb-metadata.json
+2022-12-01 14:00:47,561 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 8
+2022-12-01 14:00:47,562 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:47,562 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-01 14:00:47,562 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:47,563 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-01 14:00:47,563 INFO    SenderThread:753 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-01 14:00:47,906 INFO    Thread-17 :753 [upload_job.py:push():143] Uploaded file /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/requirements.txt
+2022-12-01 14:00:47,944 INFO    Thread-20 :753 [upload_job.py:push():143] Uploaded file /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/wandb-summary.json
+2022-12-01 14:00:47,947 INFO    Thread-19 :753 [upload_job.py:push():143] Uploaded file /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/config.yaml
+2022-12-01 14:00:48,814 INFO    Thread-18 :753 [upload_job.py:push():143] Uploaded file /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/files/output.log
+2022-12-01 14:00:49,020 INFO    Thread-12 (_thread_body):753 [sender.py:transition_state():463] send defer: 9
+2022-12-01 14:00:49,022 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:49,022 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-01 14:00:49,022 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:49,023 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-01 14:00:49,023 INFO    SenderThread:753 [file_pusher.py:join():173] waiting for file pusher
+2022-12-01 14:00:49,023 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 10
+2022-12-01 14:00:49,024 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:49,024 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-01 14:00:49,024 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:49,024 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-01 14:00:49,101 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 11
+2022-12-01 14:00:49,102 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:49,102 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-01 14:00:49,102 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:49,102 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-01 14:00:49,102 INFO    SenderThread:753 [sender.py:transition_state():463] send defer: 12
+2022-12-01 14:00:49,102 DEBUG   SenderThread:753 [sender.py:send():303] send: final
+2022-12-01 14:00:49,103 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: defer
+2022-12-01 14:00:49,103 DEBUG   SenderThread:753 [sender.py:send():303] send: footer
+2022-12-01 14:00:49,103 INFO    HandlerThread:753 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-01 14:00:49,103 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: defer
+2022-12-01 14:00:49,103 INFO    SenderThread:753 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-01 14:00:49,104 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-01 14:00:49,104 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: poll_exit
+2022-12-01 14:00:49,105 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: server_info
+2022-12-01 14:00:49,105 DEBUG   SenderThread:753 [sender.py:send_request():317] send_request: server_info
+2022-12-01 14:00:49,107 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-01 14:00:49,107 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: sampled_history
+2022-12-01 14:00:49,307 INFO    MainThread:753 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-12-01 14:00:49,308 INFO    MainThread:753 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-12-01 14:00:49,308 INFO    MainThread:753 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-12-01 14:00:49,308 DEBUG   HandlerThread:753 [handler.py:handle_request():139] handle_request: shutdown
+2022-12-01 14:00:49,308 INFO    HandlerThread:753 [handler.py:finish():814] shutting down handler
+2022-12-01 14:00:50,109 INFO    WriterThread:753 [datastore.py:close():279] close: /Users/tdeegan/dev/transformers/wandb/run-20221201_140042-2f4m00gl/run-2f4m00gl.wandb
+2022-12-01 14:00:50,309 INFO    SenderThread:753 [sender.py:finish():1331] shutting down sender
+2022-12-01 14:00:50,310 INFO    SenderThread:753 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-01 14:00:50,310 INFO    SenderThread:753 [file_pusher.py:join():173] waiting for file pusher
+2022-12-01 14:00:50,819 INFO    MainThread:753 [internal.py:handle_exit():78] Internal process exited

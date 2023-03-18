@@ -1,0 +1,27 @@
+#params: 20842
+train_set.shape: (60000, 49, 16)
+
+  0%|          | 0/600 [00:02<?, ?it/s]
+Sun Feb  5 20:35:41 2023
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:00:04.0 Off |                    0 |
+| N/A   64C    P0    29W /  70W |    798MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      3346      C                                     795MiB |
++-----------------------------------------------------------------------------+
+[Errno 2] No such file or directory: 'drive/Othercomputers/My MacBook Pro (corp)/transformers'
+/content/drive/Othercomputers/My MacBook Pro (corp)/transformers
+The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload

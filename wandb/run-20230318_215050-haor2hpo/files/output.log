@@ -1,0 +1,5 @@
+VIT input_c: 28
+#params: 1590438
+train_set.shape: (60000, 49, 16)
+VIT input: torch.Size([64, 49, 16])
+  0%|          | 0/937 [00:00<?, ?it/s]

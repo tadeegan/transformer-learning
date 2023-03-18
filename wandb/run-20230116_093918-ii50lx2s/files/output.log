@@ -1,0 +1,7 @@
+> /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/vit.py(100)__init__()
+     98
+     99     def __init__(self, input_channels, class_channels, grid_shape) -> None:
+--> 100         super(ViT, self).__init__()
+    101         self.positional_embedding = PositionalEmbedding2d(num_x=grid_shape[0], num_y=grid_shape[1])
+    102
+Automatic pdb calling has been turned ON

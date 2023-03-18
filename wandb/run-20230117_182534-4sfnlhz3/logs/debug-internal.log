@@ -1,0 +1,1169 @@
+2023-01-17 18:25:34,973 INFO    StreamThr :571 [internal.py:wandb_internal():87] W&B internal server running at pid: 571, started at: 2023-01-17 18:25:34.970307
+2023-01-17 18:25:34,977 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status
+2023-01-17 18:25:35,248 INFO    WriterThread:571 [datastore.py:open_for_write():85] open: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/run-4sfnlhz3.wandb
+2023-01-17 18:25:35,251 DEBUG   SenderThread:571 [sender.py:send():334] send: header
+2023-01-17 18:25:37,123 DEBUG   SenderThread:571 [sender.py:send():334] send: run
+2023-01-17 18:25:37,232 INFO    SenderThread:571 [dir_watcher.py:__init__():216] watching files in: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files
+2023-01-17 18:25:37,232 INFO    SenderThread:571 [sender.py:_start_run_threads():1065] run started: 4sfnlhz3 with start time 1673979934.980172
+2023-01-17 18:25:37,232 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:37,237 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:37,242 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: check_version
+2023-01-17 18:25:37,242 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: check_version
+2023-01-17 18:25:37,349 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: run_start
+2023-01-17 18:25:37,352 DEBUG   HandlerThread:571 [system_info.py:__init__():31] System info init
+2023-01-17 18:25:37,352 DEBUG   HandlerThread:571 [system_info.py:__init__():46] System info init done
+2023-01-17 18:25:37,352 INFO    HandlerThread:571 [system_monitor.py:start():151] Starting system monitor
+2023-01-17 18:25:37,352 INFO    SystemMonitor:571 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-17 18:25:37,352 INFO    HandlerThread:571 [system_monitor.py:probe():172] Collecting system info
+2023-01-17 18:25:37,353 INFO    SystemMonitor:571 [interfaces.py:start():168] Started cpu
+2023-01-17 18:25:37,354 INFO    SystemMonitor:571 [interfaces.py:start():168] Started disk
+2023-01-17 18:25:37,355 INFO    SystemMonitor:571 [interfaces.py:start():168] Started gpu
+2023-01-17 18:25:37,355 INFO    SystemMonitor:571 [interfaces.py:start():168] Started memory
+2023-01-17 18:25:37,356 INFO    SystemMonitor:571 [interfaces.py:start():168] Started network
+2023-01-17 18:25:37,360 DEBUG   HandlerThread:571 [system_info.py:probe():195] Probing system
+2023-01-17 18:25:37,373 DEBUG   HandlerThread:571 [system_info.py:_probe_git():180] Probing git
+2023-01-17 18:25:37,409 DEBUG   HandlerThread:571 [system_info.py:_probe_git():188] Probing git done
+2023-01-17 18:25:37,409 DEBUG   HandlerThread:571 [system_info.py:probe():241] Probing system done
+2023-01-17 18:25:37,409 DEBUG   HandlerThread:571 [system_monitor.py:probe():181] {'os': 'Linux-5.10.147+-x86_64-with-glibc2.27', 'python': '3.8.16', 'heartbeatAt': '2023-01-17T18:25:37.360943', 'startedAt': '2023-01-17T18:25:34.917912', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:tadeegan/transformer-learning.git', 'commit': '4576f1a2a43aef6591675d291f796dd1e5ebf0e4'}, 'email': None, 'root': '/content/drive/Othercomputers/My MacBook Pro (corp)/transformers', 'host': '0403e5632e01', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 1, 'cpu_count_logical': 2, 'disk': {'total': 78.1898422241211, 'used': 23.083969116210938}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 15843721216}], 'memory': {'total': 12.681198120117188}}
+2023-01-17 18:25:37,409 INFO    HandlerThread:571 [system_monitor.py:probe():182] Finished collecting system info
+2023-01-17 18:25:37,410 INFO    HandlerThread:571 [system_monitor.py:probe():185] Publishing system info
+2023-01-17 18:25:37,410 DEBUG   HandlerThread:571 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-17 18:25:37,414 DEBUG   HandlerThread:571 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-17 18:25:37,441 INFO    HandlerThread:571 [system_monitor.py:probe():187] Finished publishing system info
+2023-01-17 18:25:37,448 DEBUG   SenderThread:571 [sender.py:send():334] send: files
+2023-01-17 18:25:37,448 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-01-17 18:25:37,485 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: stop_status
+2023-01-17 18:25:37,487 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: stop_status
+2023-01-17 18:25:37,521 DEBUG   SenderThread:571 [sender.py:send():334] send: telemetry
+2023-01-17 18:25:37,584 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:37,586 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:37,586 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:37,590 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:37,716 INFO    Thread-16 :571 [upload_job.py:push():143] Uploaded file /tmp/tmpwhstmy1_wandb/s35dy8px-wandb-metadata.json
+2023-01-17 18:25:38,237 INFO    Thread-13 :571 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:38,238 INFO    Thread-13 :571 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/requirements.txt
+2023-01-17 18:25:38,239 INFO    Thread-13 :571 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:38,239 INFO    Thread-13 :571 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-metadata.json
+2023-01-17 18:25:40,845 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:25:44,255 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:45,949 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:25:45,988 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:45,989 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:45,990 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:45,994 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:46,174 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:46,176 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:46,177 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:46,180 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:46,262 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:46,262 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:46,328 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:46,329 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:46,330 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:46,330 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:46,341 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:46,343 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:46,343 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:46,347 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:47,279 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:47,280 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:47,281 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:47,285 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:47,441 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:47,442 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:47,443 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:47,447 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:47,597 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:47,599 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:47,599 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:47,600 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:47,604 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:47,605 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:47,605 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:47,608 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:48,268 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:48,269 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:48,559 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:48,560 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:48,560 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:48,592 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:48,732 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:48,733 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:48,734 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:48,738 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:48,894 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:48,896 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:48,896 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:48,898 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:48,916 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:48,918 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:48,918 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:48,922 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:49,271 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:49,870 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:49,871 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:49,871 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:49,877 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:50,031 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:50,033 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:50,034 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:50,038 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:50,200 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:50,201 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:50,201 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:50,202 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:50,207 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:50,210 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:50,210 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:50,213 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:50,274 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:50,281 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:51,040 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:25:51,167 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:51,169 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:51,170 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:51,183 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:51,277 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:51,336 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:51,338 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:51,339 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:51,343 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:51,495 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:51,496 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:51,497 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:51,498 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:51,510 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:51,512 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:51,512 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:51,515 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:52,281 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:52,440 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:52,441 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:52,441 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:52,445 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:52,484 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:25:52,594 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:52,595 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:52,595 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:52,599 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:52,746 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:52,748 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:52,748 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:52,749 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:52,761 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:52,766 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:52,766 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:52,781 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:53,284 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:53,703 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:53,705 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:53,705 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:53,710 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:53,877 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:53,879 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:53,880 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:53,884 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:54,027 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:54,029 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:54,029 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:54,030 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:54,040 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:54,041 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:54,042 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:54,066 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:54,287 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:54,288 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:54,969 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:54,970 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:54,970 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:54,974 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:55,123 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:55,124 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:55,124 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:55,129 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:55,285 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:55,286 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:55,286 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:55,287 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:55,295 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:55,295 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:55,300 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:55,301 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:55,304 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:56,048 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:25:56,296 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:56,297 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:56,297 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:56,302 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:56,305 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:56,455 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:56,456 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:56,457 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:56,461 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:56,604 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:56,605 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:56,606 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:56,606 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:56,617 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:56,619 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:56,619 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:56,623 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:57,306 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:57,485 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:25:57,543 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:57,545 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:57,545 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:57,549 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:57,692 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:57,694 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:57,695 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:57,698 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:57,850 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:57,851 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:57,851 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:57,853 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:57,863 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:57,864 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:57,864 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:57,868 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:58,309 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:25:58,310 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:25:58,771 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:58,773 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:58,773 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:58,780 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:58,935 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:58,936 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:58,938 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:58,942 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:59,086 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:59,087 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:59,087 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:59,088 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:25:59,092 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:59,093 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:25:59,095 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:25:59,102 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:25:59,312 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:00,061 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:00,061 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:00,062 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:00,066 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:00,220 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:00,221 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:00,222 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:00,226 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:00,315 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:00,316 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:00,380 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:00,382 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:00,382 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:00,382 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:00,404 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:00,406 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:00,407 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:00,410 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:01,102 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:01,305 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:01,309 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:01,311 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:01,315 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:01,320 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:01,476 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:01,477 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:01,478 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:01,482 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:01,632 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:01,633 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:01,634 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:01,634 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:01,638 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:01,641 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:01,642 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:01,645 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:02,324 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:02,486 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:02,595 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:02,596 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:02,597 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:02,601 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:02,763 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:02,765 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:02,766 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:02,770 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:02,923 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:02,924 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:02,925 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:02,926 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:02,930 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:02,932 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:02,933 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:02,936 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:03,327 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:03,899 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:03,900 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:03,901 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:03,905 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:04,075 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:04,077 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:04,078 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:04,082 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:04,259 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:04,260 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:04,260 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:04,261 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:04,265 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:04,267 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:04,267 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:04,271 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:04,330 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:04,331 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:05,220 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:05,221 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:05,221 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:05,226 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:05,334 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:05,392 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:05,394 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:05,394 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:05,398 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:05,547 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:05,548 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:05,549 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:05,549 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:05,554 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:05,556 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:05,556 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:05,560 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:06,160 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:06,337 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/config.yaml
+2023-01-17 18:26:06,338 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:06,585 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:06,587 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:06,587 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:06,591 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:06,747 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:06,748 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:06,748 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:06,752 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:06,905 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:06,906 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:06,907 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:06,908 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:06,914 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:06,915 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:06,920 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:06,930 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:07,340 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:07,487 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:07,826 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:07,826 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:07,827 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:07,831 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:07,985 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:07,987 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:07,988 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:07,992 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:08,157 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:08,158 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:08,159 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:08,160 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:08,174 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:08,176 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:08,179 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:08,182 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:08,344 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:08,344 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:09,104 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:09,104 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:09,105 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:09,109 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:09,274 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:09,276 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:09,276 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:09,280 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:09,346 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:09,432 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:09,433 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:09,433 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:09,434 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:09,438 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:09,440 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:09,441 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:09,444 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:10,350 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:10,386 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:10,389 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:10,389 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:10,396 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:10,537 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:10,544 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:10,545 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:10,548 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:10,693 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:10,694 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:10,695 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:10,696 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:10,700 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:10,701 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:10,703 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:10,707 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:11,333 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:11,353 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:11,646 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:11,648 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:11,648 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:11,653 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:11,804 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:11,805 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:11,806 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:11,810 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:11,958 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:11,959 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:11,959 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:11,960 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:11,982 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:11,984 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:11,984 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:11,988 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:12,356 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:12,357 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:12,488 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:12,947 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:12,949 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:12,949 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:12,953 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:13,111 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:13,118 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:13,118 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:13,129 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:13,295 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:13,296 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:13,297 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:13,297 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:13,303 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:13,305 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:13,305 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:13,314 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:13,359 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:14,295 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:14,296 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:14,296 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:14,303 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:14,362 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:14,363 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:14,461 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:14,462 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:14,463 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:14,467 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:14,620 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:14,620 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:14,621 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:14,627 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:14,633 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:14,634 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:14,635 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:14,638 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:15,593 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:15,594 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:15,595 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:15,601 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:15,766 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:15,767 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:15,768 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:15,773 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:15,924 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:15,926 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:15,926 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:15,927 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:15,931 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:15,933 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:15,934 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:15,937 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:16,353 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:16,369 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:16,370 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:16,883 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:16,885 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:16,885 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:16,889 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:17,049 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:17,050 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:17,051 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:17,055 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:17,205 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:17,206 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:17,207 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:17,207 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:17,221 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:17,222 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:17,223 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:17,235 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:17,373 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:17,489 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:18,184 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:18,185 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:18,188 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:18,206 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:18,355 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:18,357 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:18,357 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:18,376 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:18,380 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:18,380 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:18,516 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:18,518 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:18,518 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:18,519 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:18,529 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:18,532 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:18,532 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:18,536 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:19,452 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:19,453 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:19,453 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:19,457 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:19,615 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:19,617 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:19,617 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:19,622 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:19,775 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:19,776 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:19,777 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:19,777 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:19,789 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:19,791 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:19,792 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:19,795 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:20,386 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:20,386 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:20,716 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:20,717 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:20,724 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:20,728 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:20,866 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:20,867 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:20,868 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:20,872 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:21,014 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:21,016 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:21,017 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:21,019 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:21,031 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:21,032 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:21,033 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:21,036 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:21,389 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:21,442 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:21,958 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:21,959 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:21,960 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:21,964 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:22,121 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:22,123 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:22,123 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:22,127 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:22,278 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:22,281 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:22,282 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:22,283 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:22,296 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:22,298 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:22,298 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:22,303 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:22,403 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:22,405 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:22,490 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:23,289 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:23,291 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:23,292 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:23,301 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:23,403 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:23,456 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:23,457 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:23,458 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:23,467 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:23,690 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:23,696 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:23,697 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:23,697 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:23,713 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:23,715 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:23,716 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:23,738 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:24,412 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:24,641 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:24,644 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:24,644 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:24,647 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:24,798 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:24,799 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:24,800 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:24,803 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:24,953 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:24,954 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:24,955 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:24,955 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:24,981 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:24,982 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:24,982 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:24,989 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:25,416 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:25,935 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:25,936 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:25,937 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:25,941 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:26,098 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:26,100 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:26,101 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:26,105 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:26,256 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:26,258 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:26,258 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:26,269 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:26,272 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:26,274 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:26,275 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:26,282 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:26,418 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:26,419 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:26,470 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:27,225 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:27,227 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:27,228 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:27,232 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:27,378 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:27,380 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:27,380 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:27,384 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:27,421 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:27,492 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:27,531 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:27,533 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:27,533 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:27,535 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:27,548 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:27,550 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:27,550 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:27,567 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:28,425 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:28,512 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:28,515 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:28,515 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:28,519 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:28,676 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:28,678 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:28,680 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:28,684 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:28,829 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:28,830 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:28,831 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:28,831 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:28,843 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:28,845 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:28,846 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:28,849 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:29,429 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:29,797 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:29,798 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:29,798 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:29,803 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:29,965 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:29,967 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:29,967 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:29,974 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:30,137 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:30,138 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:30,138 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:30,139 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:30,151 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:30,159 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:30,159 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:30,166 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:30,432 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:30,433 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:31,103 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:31,104 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:31,104 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:31,109 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:31,266 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:31,268 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:31,268 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:31,273 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:31,424 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:31,426 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:31,427 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:31,428 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:31,432 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:31,434 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:31,434 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:31,443 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:31,448 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:31,548 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:32,365 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:32,367 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:32,368 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:32,373 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:32,455 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:32,455 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:32,493 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:32,525 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:32,527 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:32,527 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:32,531 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:32,680 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:32,682 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:32,684 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:32,682 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:32,703 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:32,707 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:32,708 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:32,711 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:33,657 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:33,658 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:33,659 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:33,663 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:33,827 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:33,828 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:33,828 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:33,833 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:33,978 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:33,980 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:33,980 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:33,980 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:33,992 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:33,993 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:33,994 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:33,998 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:34,466 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:34,466 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:34,966 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:34,967 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:34,967 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:34,972 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:35,149 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:35,150 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:35,151 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:35,155 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:35,317 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:35,319 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:35,320 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:35,320 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:35,332 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:35,334 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:35,335 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:35,338 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:35,469 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:36,284 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:36,285 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:36,285 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:36,305 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:36,443 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:36,444 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:36,445 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:36,449 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:36,472 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:36,472 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:36,605 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:36,607 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:36,607 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:36,608 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:36,608 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:36,613 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:36,615 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:36,616 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:36,619 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:37,356 DEBUG   SystemMonitor:571 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-17 18:26:37,360 DEBUG   SenderThread:571 [sender.py:send():334] send: stats
+2023-01-17 18:26:37,498 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:37,563 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:37,564 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:37,565 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:37,569 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:37,730 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:37,732 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:37,732 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:37,736 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:37,890 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:37,891 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:37,892 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:37,893 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:37,896 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:37,905 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:37,905 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:37,908 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:38,487 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:38,488 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:38,865 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:38,865 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:38,866 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:38,879 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:39,023 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:39,024 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:39,024 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:39,028 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:39,177 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:39,178 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:39,179 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:39,180 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:39,184 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:39,187 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:39,187 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:39,191 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:39,490 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:40,141 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:40,142 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:40,143 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:40,147 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:40,301 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:40,303 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:40,303 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:40,307 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:40,456 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:40,457 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:40,458 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:40,458 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:40,466 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:40,470 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:40,470 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:40,474 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:40,495 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:40,495 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:41,396 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:41,397 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:41,398 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:41,402 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:41,498 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:41,551 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:41,552 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:41,552 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:41,556 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:41,701 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:41,702 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:41,703 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:41,703 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:41,704 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:41,713 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:41,715 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:41,715 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:41,736 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:42,500 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:42,502 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:42,652 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:42,654 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:42,655 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:42,659 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:42,818 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:42,819 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:42,820 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:42,824 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:42,982 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:42,983 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:42,984 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:42,984 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:42,988 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:42,990 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:42,991 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:42,995 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:43,505 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:43,958 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:43,960 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:43,961 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:43,965 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:44,117 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:44,118 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:44,120 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:44,125 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:44,281 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:44,283 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:44,284 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:44,283 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:44,295 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:44,297 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:44,297 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:44,311 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:44,508 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:44,509 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:45,246 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:45,247 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:45,247 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:45,252 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:45,403 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:45,404 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:45,405 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:45,409 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:45,511 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:45,564 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:45,565 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:45,566 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:45,566 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:45,580 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:45,581 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:45,582 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:45,586 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:46,523 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:46,531 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:46,532 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:46,532 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:46,538 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:46,688 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:46,689 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:46,690 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:46,694 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:46,837 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:46,838 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:46,839 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:46,840 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:46,841 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:46,853 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:46,855 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:46,855 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:46,858 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:47,501 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:47,536 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:47,769 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:47,773 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:47,773 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:47,779 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:47,925 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:47,927 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:47,928 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:47,942 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:48,096 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:48,098 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:48,098 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:48,098 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:48,130 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:48,132 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:48,132 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:48,136 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:48,540 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:48,541 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:49,062 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:49,063 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:49,063 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:49,070 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:49,226 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:49,230 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:49,230 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:49,234 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:49,380 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:49,381 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:49,381 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:49,382 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-17 18:26:49,386 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:49,387 DEBUG   SenderThread:571 [sender.py:send():334] send: history
+2023-01-17 18:26:49,387 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: summary_record
+2023-01-17 18:26:49,390 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:26:49,401 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: pause
+2023-01-17 18:26:49,401 INFO    HandlerThread:571 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-17 18:26:49,401 INFO    HandlerThread:571 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-17 18:26:49,405 DEBUG   SystemMonitor:571 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-17 18:26:49,409 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined cpu
+2023-01-17 18:26:49,410 DEBUG   SystemMonitor:571 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-17 18:26:49,410 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined disk
+2023-01-17 18:26:49,422 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined gpu
+2023-01-17 18:26:49,426 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined memory
+2023-01-17 18:26:49,426 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined network
+2023-01-17 18:26:49,427 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: pause
+2023-01-17 18:26:49,428 INFO    HandlerThread:571 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-17 18:26:49,428 DEBUG   SenderThread:571 [sender.py:send():334] send: stats
+2023-01-17 18:26:49,543 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:26:50,546 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:52,430 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:52,502 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:26:52,551 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:26:57,431 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:26:57,503 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:02,432 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:02,504 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:07,433 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:07,504 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:12,433 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:12,505 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:17,434 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:17,506 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:22,435 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:22,507 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:27,436 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:27,508 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:32,437 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:32,509 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:37,438 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:37,509 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:42,438 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:42,510 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:47,439 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:47,511 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:52,440 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:52,512 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:27:57,441 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:27:57,513 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:02,442 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:02,514 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:07,442 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:07,515 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:12,443 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:12,516 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:17,444 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:17,517 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:22,445 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:22,518 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:27,446 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:27,518 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:32,447 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:32,519 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:37,448 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:37,520 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:42,448 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:42,521 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:47,449 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:47,522 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:52,450 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:52,522 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:28:57,451 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:28:57,523 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:29:02,452 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:29:02,524 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:29:07,453 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:29:07,525 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:29:12,454 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:29:12,525 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:29:17,455 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:29:17,526 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-17 18:29:18,620 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: resume
+2023-01-17 18:29:18,621 INFO    HandlerThread:571 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-17 18:29:18,621 INFO    HandlerThread:571 [system_monitor.py:start():151] Starting system monitor
+2023-01-17 18:29:18,621 INFO    SystemMonitor:571 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-17 18:29:18,622 INFO    SystemMonitor:571 [interfaces.py:start():168] Started cpu
+2023-01-17 18:29:18,624 INFO    SystemMonitor:571 [interfaces.py:start():168] Started disk
+2023-01-17 18:29:18,626 INFO    SystemMonitor:571 [interfaces.py:start():168] Started gpu
+2023-01-17 18:29:18,633 INFO    SystemMonitor:571 [interfaces.py:start():168] Started memory
+2023-01-17 18:29:18,634 INFO    SystemMonitor:571 [interfaces.py:start():168] Started network
+2023-01-17 18:29:18,765 DEBUG   SenderThread:571 [sender.py:send():334] send: telemetry
+2023-01-17 18:29:18,821 DEBUG   SenderThread:571 [sender.py:send():334] send: exit
+2023-01-17 18:29:18,822 INFO    SenderThread:571 [sender.py:send_exit():557] handling exit code: 0
+2023-01-17 18:29:18,822 INFO    SenderThread:571 [sender.py:send_exit():559] handling runtime: 72
+2023-01-17 18:29:18,829 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:29:18,830 INFO    SenderThread:571 [sender.py:send_exit():565] send defer
+2023-01-17 18:29:18,831 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,831 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 0
+2023-01-17 18:29:18,831 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,832 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-01-17 18:29:18,832 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 1
+2023-01-17 18:29:18,832 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,832 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 1
+2023-01-17 18:29:18,833 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,833 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-01-17 18:29:18,833 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 2
+2023-01-17 18:29:18,833 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,833 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 2
+2023-01-17 18:29:18,834 INFO    HandlerThread:571 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-17 18:29:18,834 DEBUG   SystemMonitor:571 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-17 18:29:18,834 DEBUG   SystemMonitor:571 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-17 18:29:18,837 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined cpu
+2023-01-17 18:29:18,837 DEBUG   SystemMonitor:571 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-17 18:29:18,839 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined disk
+2023-01-17 18:29:18,841 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined gpu
+2023-01-17 18:29:18,842 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined memory
+2023-01-17 18:29:18,842 INFO    HandlerThread:571 [interfaces.py:finish():175] Joined network
+2023-01-17 18:29:18,842 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,842 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-01-17 18:29:18,843 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 3
+2023-01-17 18:29:18,843 DEBUG   SenderThread:571 [sender.py:send():334] send: stats
+2023-01-17 18:29:18,843 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,843 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 3
+2023-01-17 18:29:18,844 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,844 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-01-17 18:29:18,844 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 4
+2023-01-17 18:29:18,844 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,844 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 4
+2023-01-17 18:29:18,845 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,845 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-01-17 18:29:18,845 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 5
+2023-01-17 18:29:18,845 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,845 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 5
+2023-01-17 18:29:18,846 DEBUG   SenderThread:571 [sender.py:send():334] send: summary
+2023-01-17 18:29:18,849 INFO    SenderThread:571 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-17 18:29:18,850 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,850 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-01-17 18:29:18,850 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 6
+2023-01-17 18:29:18,851 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,851 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 6
+2023-01-17 18:29:18,851 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,851 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-01-17 18:29:18,856 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: status_report
+2023-01-17 18:29:18,915 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 7
+2023-01-17 18:29:18,917 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:18,917 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 7
+2023-01-17 18:29:18,918 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:18,918 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-01-17 18:29:18,948 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:29:18,949 INFO    Thread-13 :571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/config.yaml
+2023-01-17 18:29:19,824 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-17 18:29:20,475 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 8
+2023-01-17 18:29:20,475 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: poll_exit
+2023-01-17 18:29:20,476 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:20,476 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 8
+2023-01-17 18:29:20,477 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:20,477 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-01-17 18:29:20,479 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 9
+2023-01-17 18:29:20,479 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:20,479 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 9
+2023-01-17 18:29:20,480 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:20,480 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-01-17 18:29:20,480 INFO    SenderThread:571 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-17 18:29:20,824 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-17 18:29:20,953 INFO    SenderThread:571 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:29:20,956 INFO    SenderThread:571 [dir_watcher.py:finish():392] scan: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files
+2023-01-17 18:29:20,956 INFO    SenderThread:571 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/config.yaml config.yaml
+2023-01-17 18:29:20,957 INFO    SenderThread:571 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json wandb-summary.json
+2023-01-17 18:29:20,962 INFO    SenderThread:571 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/requirements.txt requirements.txt
+2023-01-17 18:29:20,967 INFO    SenderThread:571 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-metadata.json wandb-metadata.json
+2023-01-17 18:29:20,968 INFO    SenderThread:571 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log output.log
+2023-01-17 18:29:20,969 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 10
+2023-01-17 18:29:20,969 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: poll_exit
+2023-01-17 18:29:20,970 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:20,974 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 10
+2023-01-17 18:29:20,975 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:20,975 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-01-17 18:29:20,976 INFO    SenderThread:571 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-17 18:29:21,193 INFO    Thread-18 :571 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/wandb-summary.json
+2023-01-17 18:29:21,232 INFO    Thread-20 :571 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/output.log
+2023-01-17 18:29:21,235 INFO    Thread-19 :571 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/requirements.txt
+2023-01-17 18:29:21,243 INFO    Thread-17 :571 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/files/config.yaml
+2023-01-17 18:29:21,443 INFO    Thread-12 :571 [sender.py:transition_state():585] send defer: 11
+2023-01-17 18:29:21,444 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:21,444 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 11
+2023-01-17 18:29:21,445 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:21,445 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-01-17 18:29:21,445 INFO    SenderThread:571 [file_pusher.py:join():165] waiting for file pusher
+2023-01-17 18:29:21,445 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 12
+2023-01-17 18:29:21,445 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:21,445 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 12
+2023-01-17 18:29:21,446 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:21,446 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-01-17 18:29:21,603 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 13
+2023-01-17 18:29:21,603 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:21,603 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 13
+2023-01-17 18:29:21,604 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:21,604 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-01-17 18:29:21,604 INFO    SenderThread:571 [sender.py:transition_state():585] send defer: 14
+2023-01-17 18:29:21,604 DEBUG   SenderThread:571 [sender.py:send():334] send: final
+2023-01-17 18:29:21,605 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: defer
+2023-01-17 18:29:21,605 DEBUG   SenderThread:571 [sender.py:send():334] send: footer
+2023-01-17 18:29:21,605 INFO    HandlerThread:571 [handler.py:handle_request_defer():170] handle defer: 14
+2023-01-17 18:29:21,605 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: defer
+2023-01-17 18:29:21,605 INFO    SenderThread:571 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-01-17 18:29:21,606 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-17 18:29:21,607 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: poll_exit
+2023-01-17 18:29:21,607 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: server_info
+2023-01-17 18:29:21,608 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: get_summary
+2023-01-17 18:29:21,608 DEBUG   SenderThread:571 [sender.py:send_request():361] send_request: server_info
+2023-01-17 18:29:21,608 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: sampled_history
+2023-01-17 18:29:21,658 DEBUG   HandlerThread:571 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-17 18:29:21,658 INFO    HandlerThread:571 [handler.py:finish():841] shutting down handler
+2023-01-17 18:29:22,608 INFO    WriterThread:571 [datastore.py:close():299] close: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230117_182534-4sfnlhz3/run-4sfnlhz3.wandb
+2023-01-17 18:29:22,658 INFO    SenderThread:571 [sender.py:finish():1491] shutting down sender
+2023-01-17 18:29:22,658 INFO    SenderThread:571 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-17 18:29:22,658 INFO    SenderThread:571 [file_pusher.py:join():165] waiting for file pusher

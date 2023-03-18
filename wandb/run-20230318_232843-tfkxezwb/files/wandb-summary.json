@@ -1,0 +1,1 @@
+{"model/parameters": 403098, "_timestamp": 1679182823.2085056, "_runtime": 693.871250629425, "_step": 104, "loss": 101.45967102050781, "train/accuracy": 0.886, "validation/accuracy": 0.88, "learning_rate": 1.0000000000000002e-06}

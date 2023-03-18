@@ -1,0 +1,18 @@
+Sequential(
+  (0): Reshape()
+  (1): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=784, out_features=10, bias=True)
+    )
+  )
+  (2): Softmax(dim=-1)
+)
+patches_train.shape: (60000, 49, 16)
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 117, in <module>
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.9, mode='auto', verbose=True)
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/optim/lr_scheduler.py", line 990, in __init__
+    self._init_is_better(mode=mode, threshold=threshold,
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/torch/optim/lr_scheduler.py", line 1059, in _init_is_better
+    raise ValueError('mode ' + mode + ' is unknown!')
+ValueError: mode auto is unknown!

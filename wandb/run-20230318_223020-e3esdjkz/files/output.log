@@ -1,0 +1,2 @@
+
+env: WANDB_MODE=disabled

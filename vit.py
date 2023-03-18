@@ -1,6 +1,5 @@
 
 import torch
-# import numpy as np
 from torch import nn
 import math
 import mnist
@@ -49,23 +48,59 @@ class TransformerEncoderBlock(torch.nn.Module):
 
 class MultiHeadSelfAttention(torch.nn.Module):
 
-    def __init__(self, d):
+    def attention(self, k, q, v):
+        kT = torch.transpose(k, dim0=-1, dim1=-2)
+        x = F.softmax((q @ kT) / math.sqrt(self.d_k), dim=-1)
+        return torch.matmul(x, v)
+
+    def __init__(self, d, h=4):
+        '''
+        Parameters:
+        d: feature size
+        h: number of heads (default 8 from AIAYN paper)
+        '''
         super(MultiHeadSelfAttention, self).__init__()
-        self.d_k = d
-        self.lin_k = torch.nn.Linear(in_features=d, out_features=self.d_k)
-        self.lin_q = torch.nn.Linear(in_features=d, out_features=self.d_k)
-        self.lin_v = torch.nn.Linear(in_features=d, out_features=self.d_k)
+        self.d_k = d // h
+        self.d_v = d // h # Could have different output shape in the future
+        self.h = h
+        self.lin_k = torch.nn.Linear(in_features=d, out_features=d)
+        self.lin_q = torch.nn.Linear(in_features=d, out_features=d)
+        self.lin_v = torch.nn.Linear(in_features=d, out_features=d)
+        self.final_lin = torch.nn.Linear(d, d)
     
     def __call__(self, input : torch.Tensor) -> torch.Tensor:
+        # print(f'mha input: {input.shape}')
         k = self.lin_k(input)
         v = self.lin_v(input)
         q = self.lin_q(input)
 
-        kT = torch.transpose(k, dim0=-1, dim1=-2)
-        x = F.softmax((q @ kT) / math.sqrt(self.d_k), dim=-1)
+        # For each head do self attention
+        outputs = []
+        for i in range(self.h):
+            k_h = k[..., i*self.d_k:(i+1)*self.d_k]
+            q_h = q[..., i*self.d_k:(i+1)*self.d_k]
+            v_h = v[..., i*self.d_k:(i+1)*self.d_k]
+            outputs.append(self.attention(k_h, q_h, v_h))
+        out = torch.cat(outputs, axis=-1)
+        # print(f'mha output: {out.shape}')
+        return self.final_lin(out)
 
-        x = torch.matmul(x, v)
-        return x
+
+class PositionalEmbeddings1d(torch.nn.Module):
+    def __init__(self, wavelengths=[2.0, 1.0, 0.5, 0.25, 0.0125]) -> None:
+        super().__init__()
+        self.wavelengths = wavelengths
+        self.embedding_length = len(self.wavelengths) * 2
+    
+    def __call__(self, input: torch.Tensor) -> torch.Tensor:
+        length = input.shape[-2]
+        inc = torch.linspace(0, end=length, steps=length+1)
+        outs = []
+        for wavelength in self.wavelengths:
+            outs.append(torch.sin(inc * wavelength))
+            outs.append(torch.cos(inc * wavelength))
+        return torch.stack(outs, dim=0).T
+
 
 class PositionalEmbedding2d(torch.nn.Module):
 
@@ -96,26 +131,38 @@ class PositionalEmbedding2d(torch.nn.Module):
 
 class ViT(torch.nn.Module):
 
-    def __init__(self, input_channels, class_channels, grid_shape) -> None:
+    def __init__(self, input_channels, encoder_d, class_channels, grid_shape) -> None:
         super().__init__()
-        self.positional_embedding = PositionalEmbedding2d(num_x=grid_shape[0], num_y=grid_shape[1])
-
+        self.positional_embedding = PositionalEmbeddings1d()
+        self.encoder_d = encoder_d
+        
         input_c = self.positional_embedding.embedding_length + input_channels
+        self.first_linear = torch.nn.Linear(input_c, encoder_d)
+
+        # print(f'VIT input_c: {input_c}')
         self.encoder_blocks = torch.nn.Sequential(
-            TransformerEncoderBlock(input_dim=input_c),
-            TransformerEncoderBlock(input_dim=input_c),
-            TransformerEncoderBlock(input_dim=input_c),
-            TransformerEncoderBlock(input_dim=input_c),
+            TransformerEncoderBlock(input_dim=encoder_d),
+            TransformerEncoderBlock(input_dim=encoder_d),
+            TransformerEncoderBlock(input_dim=encoder_d),
+            TransformerEncoderBlock(input_dim=encoder_d),
         )
-        self.learned_class_embedding = torch.nn.Parameter(torch.randn(input_c), requires_grad=True)
-        self.final_mlp = MLP(input_channels=input_c, hidden_channels=[class_channels], activation=None)
+
+        self.learned_class_embedding = torch.nn.Parameter(torch.randn(input_channels), requires_grad=True)
+        self.final_mlp = MLP(input_channels=encoder_d, hidden_channels=[class_channels], activation=None)
 
     def __call__(self, inputs : torch.Tensor) -> torch.Tensor:
         batch_size = inputs.shape[0]
-        x = self.positional_embedding(inputs)
+        # print(f'VIT input: {inputs.shape}')
+        
         # B, 1, D
         batched_class_embedding = self.learned_class_embedding.expand(batch_size, -1).unsqueeze(1)
-        x = torch.concat((batched_class_embedding, x), dim=1)
+        # print(f'batched_class_embedding: {batched_class_embedding.shape}')
+        x = torch.concat((batched_class_embedding, inputs), dim=1)
+        # print(f'tokens: {x.shape}')
+        pos_embeddings = self.positional_embedding(inputs).to(inputs.device).expand(batch_size, -1, -1)
+        # print(f'pos_embeddings: {pos_embeddings.shape}')
+        x = torch.concat((x, pos_embeddings), dim=-1)
+        x = self.first_linear(x)
         x = self.encoder_blocks(x)
         x = self.final_mlp(x[..., 0, :])
         return F.softmax(x, dim=-1)

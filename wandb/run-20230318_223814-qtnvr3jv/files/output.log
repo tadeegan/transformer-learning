@@ -1,0 +1,10 @@
+#params: 1585690
+train_set.shape: (60000, 49, 16)
+VIT input: torch.Size([64, 49, 16])
+tensor([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11., 12., 13.,
+        14., 15., 16.])
+torch.Size([16])
+torch.Size([102])
+torch.Size([64, 1, 16])
+  0%|          | 0/937 [00:00<?, ?it/s]
+env: WANDB_MODE=disabled

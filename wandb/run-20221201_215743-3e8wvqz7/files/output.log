@@ -1,0 +1,15 @@
+Sequential(
+  (0): Reshape()
+  (1): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=784, out_features=10, bias=True)
+    )
+  )
+  (2): Softmax(dim=-1)
+)
+patches_train.shape: (60000, 49, 16)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:00<00:00, 2729.13it/s]
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 152, in <module>
+    scheduler.step()
+TypeError: ReduceLROnPlateau.step() missing 1 required positional argument: 'metrics'

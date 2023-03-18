@@ -1,0 +1,6 @@
+
+patches_train.shape: (60000, 49, 16)
+  0%|          | 0/600 [00:00<?, ?it/s]
+Automatic pdb calling has been turned OFF
+The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload

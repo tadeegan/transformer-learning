@@ -1,0 +1,88 @@
+ViT(
+  (positional_embedding): PositionalEmbedding2d()
+  (encoder_blocks): Sequential(
+    (0): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (1): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (2): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (3): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+  )
+  (final_mlp): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=28, out_features=10, bias=True)
+    )
+  )
+)
+patches_train.shape: (60000, 49, 16)
+
+
+
+
+
+
+
+
+ 96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 576/600 [00:17<00:00, 35.23it/s]
+loss: [600]: 224.7759246826172
+Valition (on train):
+Valition (on test):
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:18<00:00, 32.78it/s]
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 190, in <module>
+    wandb.log({'learning_rate': scheduler.get_lr()})
+AttributeError: 'ReduceLROnPlateau' object has no attribute 'get_lr'

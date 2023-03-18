@@ -1,0 +1,1 @@
+{"loss": 221.8399658203125, "_timestamp": 1673900200.2023647, "_runtime": 8.410886764526367, "_step": 3, "train/accuracy": 0.35, "validation/accuracy": 0.25, "learning_rate": 0.001, "_wandb": {"runtime": 13}}

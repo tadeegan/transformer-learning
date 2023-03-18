@@ -1,0 +1,57 @@
+2023-01-16 09:37:55,071 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Configure stats pid to 1524
+2023-01-16 09:37:55,072 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-01-16 09:37:55,072 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Loading settings from /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/settings
+2023-01-16 09:37:55,072 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-16 09:37:55,073 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-16 09:37:55,073 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-01-16 09:37:55,073 INFO    MainThread:1524 [wandb_init.py:_log_setup():478] Logging user logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_093755-1t26ivx2/logs/debug.log
+2023-01-16 09:37:55,074 INFO    MainThread:1524 [wandb_init.py:_log_setup():479] Logging internal logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_093755-1t26ivx2/logs/debug-internal.log
+2023-01-16 09:37:55,074 INFO    MainThread:1524 [wandb_init.py:init():518] calling init triggers
+2023-01-16 09:37:55,075 INFO    MainThread:1524 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-16 09:37:55,075 INFO    MainThread:1524 [wandb_init.py:init():537] re-initializing run, found existing run on stack: 7z69t1gg
+2023-01-16 09:37:55,078 INFO    MainThread:1524 [wandb_run.py:_finish():1844] finishing run tadeegan/vit-transformer/7z69t1gg
+2023-01-16 09:37:55,080 INFO    MainThread:1524 [jupyter.py:save_history():449] not saving jupyter history
+2023-01-16 09:37:55,080 INFO    MainThread:1524 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-01-16 09:37:55,081 INFO    MainThread:1524 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-01-16 09:37:55,081 INFO    MainThread:1524 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-01-16 09:37:55,082 INFO    MainThread:1524 [wandb_run.py:_restore():2053] restore
+2023-01-16 09:37:55,082 INFO    MainThread:1524 [wandb_run.py:_restore():2059] restore done
+2023-01-16 09:37:58,101 INFO    MainThread:1524 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-01-16 09:37:58,101 INFO    MainThread:1524 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-01-16 09:37:58,110 INFO    MainThread:1524 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-01-16 09:37:58,124 INFO    MainThread:1524 [wandb_init.py:init():571] starting backend
+2023-01-16 09:37:58,126 INFO    MainThread:1524 [wandb_init.py:init():575] setting up manager
+2023-01-16 09:37:58,132 INFO    MainThread:1524 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-16 09:37:58,137 INFO    MainThread:1524 [wandb_init.py:init():582] backend started and connected
+2023-01-16 09:37:58,143 INFO    MainThread:1524 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-01-16 09:37:58,860 INFO    MainThread:1524 [wandb_init.py:init():670] updated telemetry
+2023-01-16 09:37:58,929 INFO    MainThread:1524 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-01-16 09:37:59,272 INFO    MainThread:1524 [wandb_run.py:_on_init():2121] communicating current version
+2023-01-16 09:37:59,305 INFO    MainThread:1524 [wandb_run.py:_on_init():2125] got version response 
+2023-01-16 09:37:59,305 INFO    MainThread:1524 [wandb_init.py:init():758] starting run threads in backend
+2023-01-16 09:37:59,484 INFO    MainThread:1524 [wandb_run.py:_console_start():2101] atexit reg
+2023-01-16 09:37:59,485 INFO    MainThread:1524 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-01-16 09:37:59,487 INFO    MainThread:1524 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-01-16 09:37:59,487 INFO    MainThread:1524 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-01-16 09:37:59,488 INFO    MainThread:1524 [wandb_init.py:init():798] run started, returning control to user process
+2023-01-16 09:39:19,051 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Configure stats pid to 1524
+2023-01-16 09:39:19,052 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-01-16 09:39:19,052 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Loading settings from /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/settings
+2023-01-16 09:39:19,053 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-16 09:39:19,053 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-16 09:39:19,053 INFO    MainThread:1524 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-01-16 09:39:19,054 INFO    MainThread:1524 [wandb_init.py:_log_setup():478] Logging user logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_093918-ii50lx2s/logs/debug.log
+2023-01-16 09:39:19,055 INFO    MainThread:1524 [wandb_init.py:_log_setup():479] Logging internal logs to /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_093918-ii50lx2s/logs/debug-internal.log
+2023-01-16 09:39:19,055 INFO    MainThread:1524 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f03cbffb790>
+2023-01-16 09:39:19,056 INFO    MainThread:1524 [wandb_init.py:init():518] calling init triggers
+2023-01-16 09:39:19,056 INFO    MainThread:1524 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-16 09:39:19,056 INFO    MainThread:1524 [wandb_init.py:init():537] re-initializing run, found existing run on stack: 1t26ivx2
+2023-01-16 09:39:19,061 INFO    MainThread:1524 [wandb_run.py:_finish():1844] finishing run tadeegan/vit-transformer/1t26ivx2
+2023-01-16 09:39:19,064 INFO    MainThread:1524 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-01-16 09:39:19,065 INFO    MainThread:1524 [wandb_run.py:_restore():2053] restore
+2023-01-16 09:39:19,065 INFO    MainThread:1524 [wandb_run.py:_restore():2059] restore done
+2023-01-16 09:39:22,495 INFO    MainThread:1524 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-01-16 09:39:22,496 INFO    MainThread:1524 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-01-16 09:39:22,504 INFO    MainThread:1524 [wandb_run.py:_footer_sync_info():3383] logging synced files

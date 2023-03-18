@@ -1,0 +1,4 @@
+patches_train.shape: (60000, 49, 16)
+self.learned_class_embedding.device: cuda:0
+cpu
+  0%|          | 0/600 [00:00<?, ?it/s]

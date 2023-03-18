@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.10.147+-x86_64-with-glibc2.27",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-01-17T18:25:37.360943",
+    "startedAt": "2023-01-17T18:25:34.917912",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:tadeegan/transformer-learning.git",
+        "commit": "4576f1a2a43aef6591675d291f796dd1e5ebf0e4"
+    },
+    "email": null,
+    "root": "/content/drive/Othercomputers/My MacBook Pro (corp)/transformers",
+    "host": "0403e5632e01",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "disk": {
+        "total": 78.1898422241211,
+        "used": 23.083969116210938
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 15843721216
+        }
+    ],
+    "memory": {
+        "total": 12.681198120117188
+    }
+}

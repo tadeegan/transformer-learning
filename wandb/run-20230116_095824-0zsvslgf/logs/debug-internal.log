@@ -1,0 +1,210 @@
+2023-01-16 09:58:29,682 INFO    StreamThr :7233 [internal.py:wandb_internal():87] W&B internal server running at pid: 7233, started at: 2023-01-16 09:58:29.679478
+2023-01-16 09:58:29,684 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status
+2023-01-16 09:58:29,686 INFO    WriterThread:7233 [datastore.py:open_for_write():85] open: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/run-0zsvslgf.wandb
+2023-01-16 09:58:29,690 DEBUG   SenderThread:7233 [sender.py:send():334] send: header
+2023-01-16 09:58:29,690 DEBUG   SenderThread:7233 [sender.py:send():334] send: run
+2023-01-16 09:58:29,830 INFO    SenderThread:7233 [dir_watcher.py:__init__():216] watching files in: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files
+2023-01-16 09:58:29,830 INFO    SenderThread:7233 [sender.py:_start_run_threads():1065] run started: 0zsvslgf with start time 1673863108.719622
+2023-01-16 09:58:29,831 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: summary_record
+2023-01-16 09:58:29,854 INFO    SenderThread:7233 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 09:58:29,859 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: check_version
+2023-01-16 09:58:29,859 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: check_version
+2023-01-16 09:58:29,935 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: run_start
+2023-01-16 09:58:29,936 DEBUG   HandlerThread:7233 [system_info.py:__init__():31] System info init
+2023-01-16 09:58:29,937 DEBUG   HandlerThread:7233 [system_info.py:__init__():46] System info init done
+2023-01-16 09:58:29,937 INFO    HandlerThread:7233 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 09:58:29,937 INFO    SystemMonitor:7233 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 09:58:29,937 INFO    HandlerThread:7233 [system_monitor.py:probe():172] Collecting system info
+2023-01-16 09:58:29,938 INFO    SystemMonitor:7233 [interfaces.py:start():168] Started cpu
+2023-01-16 09:58:29,939 INFO    SystemMonitor:7233 [interfaces.py:start():168] Started disk
+2023-01-16 09:58:29,939 DEBUG   HandlerThread:7233 [system_info.py:probe():195] Probing system
+2023-01-16 09:58:29,940 INFO    SystemMonitor:7233 [interfaces.py:start():168] Started gpu
+2023-01-16 09:58:29,942 INFO    SystemMonitor:7233 [interfaces.py:start():168] Started memory
+2023-01-16 09:58:29,945 INFO    SystemMonitor:7233 [interfaces.py:start():168] Started network
+2023-01-16 09:58:29,950 DEBUG   HandlerThread:7233 [system_info.py:_probe_git():180] Probing git
+2023-01-16 09:58:29,989 DEBUG   HandlerThread:7233 [system_info.py:_probe_git():188] Probing git done
+2023-01-16 09:58:29,989 DEBUG   HandlerThread:7233 [system_info.py:probe():241] Probing system done
+2023-01-16 09:58:29,989 DEBUG   HandlerThread:7233 [system_monitor.py:probe():181] {'os': 'Linux-5.10.147+-x86_64-with-glibc2.27', 'python': '3.8.16', 'heartbeatAt': '2023-01-16T09:58:29.940021', 'startedAt': '2023-01-16T09:58:24.251700', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:tadeegan/transformer-learning.git', 'commit': 'f09fd305bf4d7a1550d57006ab744a688deacec3'}, 'email': None, 'root': '/content/drive/Othercomputers/My MacBook Pro (corp)/transformers', 'host': 'b372fa901231', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 1, 'cpu_count_logical': 2, 'disk': {'total': 78.1898422241211, 'used': 23.103073120117188}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 15843721216}], 'memory': {'total': 12.681198120117188}}
+2023-01-16 09:58:29,990 INFO    HandlerThread:7233 [system_monitor.py:probe():182] Finished collecting system info
+2023-01-16 09:58:29,990 INFO    HandlerThread:7233 [system_monitor.py:probe():185] Publishing system info
+2023-01-16 09:58:29,990 DEBUG   HandlerThread:7233 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-16 09:58:29,994 DEBUG   HandlerThread:7233 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-16 09:58:29,999 INFO    HandlerThread:7233 [system_monitor.py:probe():187] Finished publishing system info
+2023-01-16 09:58:30,000 DEBUG   SenderThread:7233 [sender.py:send():334] send: files
+2023-01-16 09:58:30,001 INFO    SenderThread:7233 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-01-16 09:58:30,039 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: stop_status
+2023-01-16 09:58:30,039 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: stop_status
+2023-01-16 09:58:30,097 DEBUG   SenderThread:7233 [sender.py:send():334] send: telemetry
+2023-01-16 09:58:30,317 INFO    Thread-234:7233 [upload_job.py:push():143] Uploaded file /tmp/tmp7n3x2b53wandb/18u01l03-wandb-metadata.json
+2023-01-16 09:58:30,836 INFO    Thread-231:7233 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/requirements.txt
+2023-01-16 09:58:30,837 INFO    Thread-231:7233 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log
+2023-01-16 09:58:30,837 INFO    Thread-231:7233 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-summary.json
+2023-01-16 09:58:30,838 INFO    Thread-231:7233 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-metadata.json
+2023-01-16 09:58:34,778 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:58:34,847 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log
+2023-01-16 09:58:36,137 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-16 09:58:36,139 DEBUG   SenderThread:7233 [sender.py:send():334] send: history
+2023-01-16 09:58:36,139 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: summary_record
+2023-01-16 09:58:36,143 INFO    SenderThread:7233 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 09:58:36,854 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-summary.json
+2023-01-16 09:58:36,855 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log
+2023-01-16 09:58:38,860 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log
+2023-01-16 09:58:40,146 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:58:45,038 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:58:45,147 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:58:50,040 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:58:50,148 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:58:55,041 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:58:55,149 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:00,042 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:00,153 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:00,925 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/config.yaml
+2023-01-16 09:59:05,042 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:05,228 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:10,043 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:10,229 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:15,044 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:15,045 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:15,230 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:20,046 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:20,231 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:25,047 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:25,232 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:29,947 DEBUG   SystemMonitor:7233 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 09:59:29,948 DEBUG   SenderThread:7233 [sender.py:send():334] send: stats
+2023-01-16 09:59:30,048 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:30,949 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:35,049 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:35,950 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:40,050 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:40,951 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:45,050 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:45,952 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:50,051 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 09:59:50,953 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:53,025 DEBUG   SenderThread:7233 [sender.py:send():334] send: telemetry
+2023-01-16 09:59:53,030 DEBUG   SenderThread:7233 [sender.py:send():334] send: exit
+2023-01-16 09:59:53,031 INFO    SenderThread:7233 [sender.py:send_exit():557] handling exit code: 0
+2023-01-16 09:59:53,031 INFO    SenderThread:7233 [sender.py:send_exit():559] handling runtime: 83
+2023-01-16 09:59:53,040 INFO    SenderThread:7233 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 09:59:53,041 INFO    SenderThread:7233 [sender.py:send_exit():565] send defer
+2023-01-16 09:59:53,042 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,042 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 0
+2023-01-16 09:59:53,042 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,043 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-01-16 09:59:53,043 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 1
+2023-01-16 09:59:53,043 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,043 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 1
+2023-01-16 09:59:53,044 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,044 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-01-16 09:59:53,044 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 2
+2023-01-16 09:59:53,044 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,044 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 2
+2023-01-16 09:59:53,044 INFO    HandlerThread:7233 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 09:59:53,045 DEBUG   SystemMonitor:7233 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 09:59:53,045 INFO    HandlerThread:7233 [interfaces.py:finish():175] Joined cpu
+2023-01-16 09:59:53,048 DEBUG   SystemMonitor:7233 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 09:59:53,048 INFO    HandlerThread:7233 [interfaces.py:finish():175] Joined disk
+2023-01-16 09:59:53,052 INFO    HandlerThread:7233 [interfaces.py:finish():175] Joined gpu
+2023-01-16 09:59:53,053 INFO    HandlerThread:7233 [interfaces.py:finish():175] Joined memory
+2023-01-16 09:59:53,053 INFO    HandlerThread:7233 [interfaces.py:finish():175] Joined network
+2023-01-16 09:59:53,053 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,053 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-01-16 09:59:53,054 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 3
+2023-01-16 09:59:53,054 DEBUG   SenderThread:7233 [sender.py:send():334] send: stats
+2023-01-16 09:59:53,054 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,054 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 3
+2023-01-16 09:59:53,055 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,055 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-01-16 09:59:53,055 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 4
+2023-01-16 09:59:53,055 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,055 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 4
+2023-01-16 09:59:53,056 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,056 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-01-16 09:59:53,056 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 5
+2023-01-16 09:59:53,056 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,057 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 5
+2023-01-16 09:59:53,057 DEBUG   SenderThread:7233 [sender.py:send():334] send: summary
+2023-01-16 09:59:53,060 INFO    SenderThread:7233 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 09:59:53,062 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,062 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-01-16 09:59:53,062 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 6
+2023-01-16 09:59:53,062 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,062 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 6
+2023-01-16 09:59:53,063 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,063 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-01-16 09:59:53,067 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 09:59:53,087 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-summary.json
+2023-01-16 09:59:53,194 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 7
+2023-01-16 09:59:53,195 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:53,196 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 7
+2023-01-16 09:59:53,196 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:53,196 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-01-16 09:59:54,033 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-16 09:59:54,088 INFO    Thread-231:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/config.yaml
+2023-01-16 09:59:54,528 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 8
+2023-01-16 09:59:54,529 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: poll_exit
+2023-01-16 09:59:54,529 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:54,530 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 8
+2023-01-16 09:59:54,530 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:54,531 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-01-16 09:59:54,533 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 9
+2023-01-16 09:59:54,533 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:54,533 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 9
+2023-01-16 09:59:54,534 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:54,534 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-01-16 09:59:54,534 INFO    SenderThread:7233 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-16 09:59:55,033 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-16 09:59:55,093 INFO    SenderThread:7233 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log
+2023-01-16 09:59:55,094 INFO    SenderThread:7233 [dir_watcher.py:finish():392] scan: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files
+2023-01-16 09:59:55,095 INFO    SenderThread:7233 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/config.yaml config.yaml
+2023-01-16 09:59:55,096 INFO    SenderThread:7233 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-summary.json wandb-summary.json
+2023-01-16 09:59:55,101 INFO    SenderThread:7233 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/requirements.txt requirements.txt
+2023-01-16 09:59:55,105 INFO    SenderThread:7233 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-metadata.json wandb-metadata.json
+2023-01-16 09:59:55,106 INFO    SenderThread:7233 [dir_watcher.py:finish():406] scan save: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log output.log
+2023-01-16 09:59:55,110 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 10
+2023-01-16 09:59:55,110 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: poll_exit
+2023-01-16 09:59:55,111 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:55,111 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 10
+2023-01-16 09:59:55,113 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:55,124 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-01-16 09:59:55,125 INFO    SenderThread:7233 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-16 09:59:55,432 INFO    Thread-235:7233 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/config.yaml
+2023-01-16 09:59:55,468 INFO    Thread-238:7233 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/output.log
+2023-01-16 09:59:55,475 INFO    Thread-236:7233 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/wandb-summary.json
+2023-01-16 09:59:55,515 INFO    Thread-237:7233 [upload_job.py:push():143] Uploaded file /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/files/requirements.txt
+2023-01-16 09:59:55,716 INFO    Thread-230:7233 [sender.py:transition_state():585] send defer: 11
+2023-01-16 09:59:55,716 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:55,717 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 11
+2023-01-16 09:59:55,717 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:55,717 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-01-16 09:59:55,717 INFO    SenderThread:7233 [file_pusher.py:join():165] waiting for file pusher
+2023-01-16 09:59:55,717 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 12
+2023-01-16 09:59:55,718 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:55,718 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 12
+2023-01-16 09:59:55,719 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:55,719 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-01-16 09:59:55,900 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 13
+2023-01-16 09:59:55,900 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:55,900 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 13
+2023-01-16 09:59:55,901 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:55,901 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-01-16 09:59:55,901 INFO    SenderThread:7233 [sender.py:transition_state():585] send defer: 14
+2023-01-16 09:59:55,902 DEBUG   SenderThread:7233 [sender.py:send():334] send: final
+2023-01-16 09:59:55,902 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 09:59:55,902 DEBUG   SenderThread:7233 [sender.py:send():334] send: footer
+2023-01-16 09:59:55,902 INFO    HandlerThread:7233 [handler.py:handle_request_defer():170] handle defer: 14
+2023-01-16 09:59:55,903 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: defer
+2023-01-16 09:59:55,903 INFO    SenderThread:7233 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-01-16 09:59:55,904 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-16 09:59:55,905 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: poll_exit
+2023-01-16 09:59:55,905 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: server_info
+2023-01-16 09:59:55,905 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: get_summary
+2023-01-16 09:59:55,905 DEBUG   SenderThread:7233 [sender.py:send_request():361] send_request: server_info
+2023-01-16 09:59:55,906 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: sampled_history
+2023-01-16 09:59:56,020 DEBUG   HandlerThread:7233 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-16 09:59:56,021 INFO    HandlerThread:7233 [handler.py:finish():841] shutting down handler
+2023-01-16 09:59:56,906 INFO    WriterThread:7233 [datastore.py:close():299] close: /content/drive/Othercomputers/My MacBook Pro (corp)/transformers/wandb/run-20230116_095824-0zsvslgf/run-0zsvslgf.wandb
+2023-01-16 09:59:57,020 INFO    SenderThread:7233 [sender.py:finish():1491] shutting down sender
+2023-01-16 09:59:57,020 INFO    SenderThread:7233 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-16 09:59:57,020 INFO    SenderThread:7233 [file_pusher.py:join():165] waiting for file pusher

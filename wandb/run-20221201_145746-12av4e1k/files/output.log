@@ -1,0 +1,83 @@
+ViT(
+  (positional_embedding): PositionalEmbedding2d()
+  (encoder_blocks): Sequential(
+    (0): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (1): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+    (2): TransformerEncoderBlock(
+      (norm1): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (norm2): LayerNorm((28,), eps=1e-05, elementwise_affine=True)
+      (msa): MultiHeadSelfAttention(
+        (lin_k): Linear(in_features=28, out_features=28, bias=True)
+        (lin_q): Linear(in_features=28, out_features=28, bias=True)
+        (lin_v): Linear(in_features=28, out_features=28, bias=True)
+      )
+      (MLP): MLP(
+        (layers): ModuleList(
+          (0): Linear(in_features=28, out_features=28, bias=True)
+          (1): Linear(in_features=28, out_features=28, bias=True)
+        )
+      )
+    )
+  )
+  (final_mlp): MLP(
+    (layers): ModuleList(
+      (0): Linear(in_features=28, out_features=10, bias=True)
+    )
+  )
+)
+patches_train.shape: (60000, 49, 16)
+learning rate: 0.018957345971563982
+Traceback (most recent call last):
+  File "/Users/tdeegan/dev/transformers/main.py", line 118, in <module>
+    for b in tqdm(range(num_batches)):
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/tqdm/std.py", line 562, in __new__
+    with cls.get_lock():  # also constructs lock if non-existent
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/tqdm/std.py", line 661, in get_lock
+    cls._lock = TqdmDefaultWriteLock()
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/tqdm/std.py", line 99, in __init__
+    cls.create_mp_lock()
+  File "/Users/tdeegan/Library/Python/3.10/lib/python/site-packages/tqdm/std.py", line 123, in create_mp_lock
+    cls.mp_lock = RLock()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/multiprocessing/context.py", line 73, in RLock
+    return RLock(ctx=self.get_context())
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/multiprocessing/synchronize.py", line 187, in __init__
+    SemLock.__init__(self, RECURSIVE_MUTEX, 1, 1, ctx=ctx)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/multiprocessing/synchronize.py", line 79, in __init__
+    from .resource_tracker import register
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/multiprocessing/resource_tracker.py", line 24, in <module>
+    from . import spawn
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt
